@@ -1,0 +1,1 @@
+function foo(a, b) {  if (b === undefined) {    b = 0; // Assign a default value if b is undefined  }  return a + b;}console.log(foo(1, undefined)); // Output: 1console.log(foo(1, 2)); // Output: 3
